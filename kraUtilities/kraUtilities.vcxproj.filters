@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3D Math">
+      <UniqueIdentifier>{c2738eac-5fd9-4879-a6f6-c7e4f329d169}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\kraVector2.h">
+      <Filter>Source Files\3D Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraVector3.h">
+      <Filter>Source Files\3D Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraVector4.h">
+      <Filter>Source Files\3D Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraVertex.h">
+      <Filter>Source Files\3D Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraPrerequisitesUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraColor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraPlatformDefines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraPlatformMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraPlatformTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraStdheaders.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraMacros.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraWindowsMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\kraVector2.cpp">
+      <Filter>Source Files\3D Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraVector3.cpp">
+      <Filter>Source Files\3D Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraVector4.cpp">
+      <Filter>Source Files\3D Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraVertex.cpp">
+      <Filter>Source Files\3D Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraPlatformMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraWindowsMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
